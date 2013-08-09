@@ -23,7 +23,7 @@ include 'config.php';
 		<div style="border:1px solid #CCC; padding:10px;" id="log"></div>
 
 		<!-- 
-			production requires a forked version of plupload to allow BeforeChunkUpload method and PUT requests https://github.com/joegreen0991/plupload
+			Requires a forked version of plupload to allow BeforeChunkUpload method and PUT requests https://github.com/joegreen0991/plupload
 			All compiled srcs are in https://github.com/joegreen0991/plupload/tree/master/js
 		-->
 		<script type="text/javascript" src="plupload/js/plupload.full.min.js"></script>
