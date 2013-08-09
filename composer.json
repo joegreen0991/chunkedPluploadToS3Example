@@ -1,0 +1,16 @@
+{
+	"name": "joegreen0991/s3directupload",
+	"description": "A chunked upload directly to s3 with plupload",
+	"keywords": ["s3", "plupload", "upload"],
+	"require": {
+		"aws/aws-sdk-php": "*",
+		"joegreen0991/s3multiupload" : "*"
+	},
+	"autoload": {
+
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "dev"
+}
