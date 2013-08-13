@@ -1,8 +1,3 @@
-<?php 
-// Include the s3 bucket setttings
-include 'config.php';
-?>
-
 <!doctype html>
 <html>
 	<head>
@@ -72,9 +67,6 @@ include 'config.php';
 				// HTML5 environment is supported by >= IE 9 and if IE 8 users MUST be allowed to use the system then they won't mind installing silverlight.
 				// Otherwise we could direct them to an ond school form based upload page
 				runtimes: 'html5,silverlight',
-				
-				// The s3 bucket endpoint
-				url: 'http://<?=S3_BUCKET?>.s3.amazonaws.com/',
 				
 				// This is largest object you can store in S3
 				//max_file_size: '5tb',
