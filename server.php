@@ -14,7 +14,7 @@ $s3Client = \Aws\Common\Aws::factory(array(
 	'region' => S3_REGION
 ))->get('s3');
 
-// We also need to pass in a storage handler, so we can remember the multipart_id between requests - use native sessions, or role your own
+// We also need to pass in a storage handler, so we can remember the multipart_id between requests - use native sessions, or roll your own
 $keyStorage = new S3MultiUpload\KeyStorage\NativeSession;
 
 // Create our object to manage the signing server side - we generate the url and all the params, but hand it back to the client to send the actual data
