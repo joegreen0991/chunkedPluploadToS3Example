@@ -2,7 +2,10 @@
 include '../vendor/autoload.php';
 
 // S3 Creds
-include 'config.php';
+define('S3_BUCKET','');
+define('S3_KEY','');
+define('S3_SECRET','');
+define('S3_REGION','eu-west-1');
 
 // We need to give our class an instance of the S3Client
 $s3Client = \Aws\Common\Aws::factory(array(
